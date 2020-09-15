@@ -1,0 +1,129 @@
+html, body {
+    background-color: lightblue;
+    position: fixed;
+  }
+  .wrapper {
+    margin: 5px;
+  }
+  .face {
+    width: 250px;
+    height: 225px;
+    border: solid 10px;
+    background-color: black; 
+    border-radius: 150px;
+    position: relative;
+    left: 200px;
+    top: 50px;
+  }
+  .body {
+    width: 350px;
+    height: 425px;
+    border: solid;
+    background-color: black;
+    border-radius: 200px;
+    position: relative;
+    left: 150px;
+  }
+  
+  .mask {
+    width: 200px;
+    height: 175px;
+    border: solid white;
+    background-color: white;
+    border-radius: 80px;
+    position: relative;
+    top: -595px;
+    left: 234px;
+   }
+  
+  .belly {
+    width: 300px;
+    height: 375px;
+    border: solid white;
+    background-color: white;
+    border-radius: 50% 50% 50% 50%/60% 60% 40% 40%;
+    position: relative;
+    top: -600px;
+    left: 175px;
+  }
+  
+  .left-arm {
+    width: 45px;
+    height: 150px;
+    border: solid;
+    background-color: black;
+    border-radius: 50% 50% 50% 50%/60% 60% 40% 40%;
+    position: relative;
+    top: -850px;
+    left: 107px;
+    transform: rotate(15deg);
+  }
+  
+  .right-arm {
+    width: 45px;
+    height: 150px;
+    border: solid;
+    background-color: black;
+    border-radius: 50% 50% 50% 50%/60% 60% 40% 40%;
+    position: relative;
+    top: -125px;
+    left: 390px;
+    transform: rotate(-60deg);
+    }
+  
+  .nose {
+    width: 30px;
+    height: 30px;
+    border: solid orange;
+    background-color: orange;
+    border-radius: 25px 0 0 0;
+    transform: rotate(90deg);
+    position: relative;
+    left: 50px;
+    top: -275px;
+  }
+  
+  .left-foot {
+    width: 75px;
+    height: 50px;
+    border: solid orange;
+    background-color: orange;
+    border-radius: 50% 50% 50% 50%/60% 60% 40% 40%;
+    position: relative; 
+    top: 400px;
+    left: 250px;
+    transform: rotate(-40deg);
+  }
+  .right-foot {
+    width: 75px;
+    height: 50px;
+    border: solid orange;
+    background-color: orange;
+    border-radius: 50% 50% 50% 50%/60% 60% 40% 40%;
+    position: relative;
+    top: -15px;
+    left: 150px;
+    transform: rotate(-10deg)
+  }
+  
+  .left-eye {
+    width: 20px;
+    height: 20px;
+    border: solid black;
+    background-color: black;
+    border-radius: 25px;
+    position: relative; 
+    top: -505px;
+    left: -40px;
+  }
+  
+  .right-eye {
+    width: 20px;
+    height: 20px; 
+    border: solid black;
+    background-color: black; 
+    border-radius: 25px;
+    position: relative;
+    top: 3px;
+    left: 100px;
+   }
